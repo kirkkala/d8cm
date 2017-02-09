@@ -244,9 +244,7 @@
  *   );
  * @endcode
  */
-$config_directories = array(
-    'default' => '../config/default',
-);
+$config_directories = array();
 
 /**
  * Settings:
