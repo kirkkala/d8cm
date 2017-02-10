@@ -753,5 +753,11 @@ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
   include $app_root . '/' . $site_path . '/settings.local.php';
 }
 
+
+$config_directories = array(
+  'default' => '../config/default',
+);
+
+
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_uGSA9frhxWPWRgAGVBqr2ckmlkN9Ye8uA4B-OrUs3AR7Cc6Sh7N-hK7H9RIFEaK5OrpgJICFMA/sync';
+//$config_directories['sync'] = 'sites/default/files/config_uGSA9frhxWPWRgAGVBqr2ckmlkN9Ye8uA4B-OrUs3AR7Cc6Sh7N-hK7H9RIFEaK5OrpgJICFMA/sync';
